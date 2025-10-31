@@ -1,1 +1,16 @@
-/*  */
+#image-div{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+#name-div {
+    align-items: center;
+    text-align: center;
+}
