@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-#ico-img{
+.ico-img{
     border-radius: 30%;
     width: 60px;
     margin-right: 10px;
@@ -33,4 +33,8 @@ body{
 .light-mode{
     background-color: white;
     color: black;
+}
+
+#links-icos a{
+    text-decoration: none;
 }
