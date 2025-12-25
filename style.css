@@ -33,6 +33,14 @@ body{
 .light-mode{
     background-color: white;
     color: black;
+
+    th, td{
+        border: 1px solid black;
+    }
+    
+    .mode:hover{
+        box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+    }
 }
 
 #links-icos a{
@@ -52,4 +60,12 @@ body{
     border-color: white;
     color: white;
     
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
 }
