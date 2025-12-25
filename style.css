@@ -40,5 +40,15 @@ body{
 }
 
 .mode:hover{
-    box-shadow: 0 8px 16px 0 rgb(0, 255, 34);
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+}
+
+.mode{
+    position: fixed;
+    border-radius: 50px;
+    height: 40px;
+    background-color: black;
+    border-color: white;
+    color: white;
+    
 }
