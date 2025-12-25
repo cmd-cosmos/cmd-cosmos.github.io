@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button id="mode" onclick="modeToggle()">Mode</button>
     <div id="image-div"><img src="media/img.png" alt="self-image" id="self-image"></div>
 
     <div id="name-div">
@@ -80,9 +81,12 @@
     <br>
     <div>
         <h1 id="skills-h1" style="text-align: center;">Projects</h1>
-
-
     </div>
-
+    <script>
+        function modeToggle() {
+            var ele = document.body;
+            ele.classList.toggle("light-mode");
+          }
+    </script>
 </body>
 </html>
