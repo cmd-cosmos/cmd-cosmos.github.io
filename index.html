@@ -12,17 +12,17 @@
         <h2 id="concise-desc-h2">🚀 I like Rockets, Cognition, and Robotics 🤖</h2>
         <div id="links-icos">
             <a href="https://www.linkedin.com/in/premanshu-bhagat/" target="_blank">
-                <img src="media/linkedinico.png" alt="linkedin-icon" id="ico-img">
+                <img src="media/linkedinico.png" alt="linkedin-icon" class="ico-img">
             </a>
             
             <a href="https://github.com/cmd-cosmos" target="_blank">
-                <img src="media/github-light.svg" alt="github-icon" id="ico-img">
+                <img src="media/github-light.svg" alt="github-icon" id="github-icon" class="ico-img">
             </a>
 
-            <img src="media/gmail-icon.png" alt="" id="ico-img" onclick="alert('\nEmail: premtsapj@gmail.com')">
+            <img src="media/gmail-icon.png" alt="" class="ico-img" onclick="alert('\nEmail: premtsapj@gmail.com')">
 
             <a href="media/Premanshu_Bhagat_Resume.pdf" target="_blank">
-                <img src="media/resume-png.png" alt="" id="ico-img">
+                <img src="media/resume-png.png" alt="" class="ico-img">
             </a>
 
         </div>
@@ -85,7 +85,16 @@
     <script>
         function modeToggle() {
             var ele = document.body;
+            const gh_icon = document.getElementById("github-icon");
+
             ele.classList.toggle("light-mode");
+
+            if (ele.classList.contains("light-mode")){
+                gh_icon.src = "media/ghub-img.png"
+            }
+            else{
+                gh_icon.src = "media/github-light.svg";
+            }
           }
     </script>
 </body>
