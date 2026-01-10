@@ -115,13 +115,13 @@
             var ele = document.body;
             const gh_icon = document.getElementById("github-icon");
 
-            ele.classList.toggle("light-mode");
+            ele.classList.toggle("dark-mode");
 
-            if (ele.classList.contains("light-mode")){
-                gh_icon.src = "media/ghub-img.png"
+            if (ele.classList.contains("dark-mode")){
+                gh_icon.src = "media/github-light.svg";
             }
             else{
-                gh_icon.src = "media/github-light.svg";
+                gh_icon.src = "media/ghub-img.png"
             }
           }
     </script>
