@@ -18,6 +18,18 @@
     text-align: center;
 }
 
+#bio-div {
+    padding: 15px;
+}
+
+#skills-div {
+    padding: 15px;
+}
+
+#project-div {
+    padding: 15px;
+}
+
 .ico-img{
     border-radius: 30%;
     width: 60px;
@@ -73,6 +85,4 @@ th, td {
     padding: 15px;
 }
 
-.title {
-  font-size: clamp(2rem, 5vw + 1rem, 7rem);
-}   
+
