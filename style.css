@@ -72,3 +72,7 @@ th, td {
     border: 1px solid black;
     padding: 15px;
 }
+
+.title {
+  font-size: clamp(2rem, 5vw + 1rem, 7rem);
+}   
